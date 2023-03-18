@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Super Mario</title>
+    <link href="style.css" rel="stylesheet" type="text/css"/>	
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <script src="https://fe.it-academy.by/JQ/jquery.js"></script>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+<script src="https://zeptojs.com/zepto.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="navigation">
+        <button class="button" id="start">NEW GAME</button>
+        <button class="button" id="highScoreButt">HIGH SCORE</button>
+        <button class="button" id="rules">RULES</button>
+        <button class="button"  id="sound">SOUND ON</button>
+      </div>
+      <div class="navigation arrow">
+        <button class="button" id="leftButt">LEFT ◄ </button>
+        <button class="button" id="upButt">UP</button>
+        <button class="button"  id="rightButt"> ► RIGHT</button>
+      </div>
+      <div class="contentContainer" id="contentContainer">
+      </div>
+      <div class="resultsContainer">
+        <div class="firstLine">
+          <div class="result">SCORE
+             <div class="result" id="score"></div>
+          </div>
+          <div class="result">COINS
+            <div class="result" id="coins"></div>
+          </div>
+        </div>
+        <div class="secondLine">
+          <div class="result">WORLD
+            <div class="result" id="world"></div>
+          </div>
+          <div class="result">TIME
+            <div class="result" id="time"></div>
+          </div>
+        </div>
+          <div class="thirdLine"></div>
+          <div class="result">LIVES
+            <div class="result" id="lives"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="Mario.js">
+    </script>
+  </body>
+</html>
